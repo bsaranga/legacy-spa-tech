@@ -25,10 +25,14 @@
                     <td><input data-bind="value: name" /></td>
                     <td><select data-bind="options: $root.availableMeals, value: meal, optionsText: 'mealName'"></select></td>
                     <td data-bind="text: formattedPrice"></td>
+                    <td><a href="#" data-bind="click: $root.removeSeat">Remove</a></td>
                 </tr>
             </tbody>
         </table>
         <button data-bind="click: addSeat">Add another seat</button>
+        <h3 data-bind="visible: totalSurcharge() > 0">
+            Total surcharge: $<span data-bind="text: totalSurcharge().toFixed(2)"></span>
+        </h3>
     </div>
 </body>
 </html>
