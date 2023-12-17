@@ -9,7 +9,7 @@
 </head>
 <body>
     <div>
-        <h2>Your seat reservations</h2>
+        <h2>Your seat reservations (<span data-bind="text: seats().length"></span>)</h2>
         <table>
             <thead>
                 <tr>
@@ -29,7 +29,7 @@
                 </tr>
             </tbody>
         </table>
-        <button data-bind="click: addSeat">Add another seat</button>
+        <button data-bind="click: addSeat, enable: seats().length < 5">Add another seat</button>
         <h3 data-bind="visible: totalSurcharge() > 0">
             Total surcharge: $<span data-bind="text: totalSurcharge().toFixed(2)"></span>
         </h3>
