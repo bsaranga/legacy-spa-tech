@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knockout Sample</title>
+    <script src="./knockout-3.5.1.js" defer></script>
+    <script src="./application.js" defer></script>
+</head>
+<body>
+    <div>
+        <h2>Your seat reservations</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Passenger name</th>
+                    <th>Meal</th>
+                    <th>Surcharge</th>
+                </tr>
+            </thead>
+            <tbody data-bind="foreach: seats">
+                <tr>
+                    <td data-bind="text: id"></td>
+                    <td data-bind="text: name"></td>
+                    <td data-bind="text: meal().mealName"></td>
+                    <td data-bind="text: meal().price"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
