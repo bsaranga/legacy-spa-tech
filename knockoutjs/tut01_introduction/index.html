@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knockout Sample</title>
+    <script src="./knockout-3.5.1.js" defer></script>
+    <script src="./application.js" defer></script>
+</head>
+<body>
+    <div>
+        <!-- This is a *view* - HTML markup that defines the appearance of your UI -->
+        <p>First name: <strong data-bind="text: firstName"></strong></p>
+        <p>Last name: <strong data-bind="text: lastName"></strong></p>
+
+        <p>First name: <input data-bind="value: firstName" /></p>
+        <p>Last name: <input data-bind="value: lastName" /></p>
+
+        <p>Full name: <strong data-bind="text: fullName"></strong></p>
+
+        <button data-bind="click: capitalizeLastName">Toggle caps</button>
+    </div>
+</body>
+</html>
