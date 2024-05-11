@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/bsaranga/repos/vanilla_apps/server/server.csproj": {}
+    "/home/bsaranga/repos/legacy-spa-tech/vanillajs/server/server.csproj": {}
   },
   "projects": {
-    "/home/bsaranga/repos/vanilla_apps/server/server.csproj": {
+    "/home/bsaranga/repos/legacy-spa-tech/vanillajs/server/server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/bsaranga/repos/vanilla_apps/server/server.csproj",
+        "projectUniqueName": "/home/bsaranga/repos/legacy-spa-tech/vanillajs/server/server.csproj",
         "projectName": "server",
-        "projectPath": "/home/bsaranga/repos/vanilla_apps/server/server.csproj",
+        "projectPath": "/home/bsaranga/repos/legacy-spa-tech/vanillajs/server/server.csproj",
         "packagesPath": "/home/bsaranga/.nuget/packages/",
-        "outputPath": "/home/bsaranga/repos/vanilla_apps/server/obj/",
+        "outputPath": "/home/bsaranga/repos/legacy-spa-tech/vanillajs/server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/bsaranga/.nuget/NuGet/NuGet.Config"

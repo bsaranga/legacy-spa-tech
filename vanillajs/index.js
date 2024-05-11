@@ -24,3 +24,19 @@ async function main() {
         console.log(chunk);
     }
 }
+
+
+const anotherTag = document.getElementById('another_tag');
+anotherTag.outerHTML = `
+    <style>
+        #greet {
+            color: red;
+        }
+    </style>
+    <h1 id="greet" onclick="greet()">Hello World</h1>
+    <script type="text/javascript">
+        function greet() {
+            console.log('hello world');
+        }
+    </script>
+`

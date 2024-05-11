@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ekQyXKNQl0fhX47qY/stZMfYijy8rnDbPwjA8CrYx9fw4PSdStLSTTU9lUHzWnXlBnN1LxEHEPLoBHQLoxNNlA==",
+  "dgSpecHash": "XHf/u4h+C7/f6U/wOT6Jmu6rDIQML+dnyjR1VXNMD7iNdVFoO82C66hzanByQHVvzBA1pMOLOdLtC30Zxx5USw==",
   "success": true,
-  "projectFilePath": "/home/bsaranga/repos/vanilla_apps/server/server.csproj",
+  "projectFilePath": "/home/bsaranga/repos/legacy-spa-tech/vanillajs/server/server.csproj",
   "expectedPackageFiles": [
     "/home/bsaranga/.nuget/packages/microsoft.aspnetcore.openapi/8.0.3/microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
     "/home/bsaranga/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
